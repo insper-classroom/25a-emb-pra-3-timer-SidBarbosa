@@ -94,7 +94,6 @@ int main() {
             erro = 0;
             tf = 0;
         }   
-        stop_char = 0;
     }
 
         
