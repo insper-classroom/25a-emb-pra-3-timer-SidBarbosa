@@ -62,7 +62,7 @@ int main() {
         char start_char;
         printf("Pressione 's' para iniciar e 'p' para parar\n");
         scanf("%c", &start_char);
-        int stop_char;
+        int stop_char = 0;
 
         while(start_char == 's' && stop_char != 'p'){
             stop_char = getchar_timeout_us(10000);
